@@ -102,3 +102,6 @@ $ poetry run uvicorn main:app --reload
 Open your browser and navigate to http://localhost:8000
 
 Click the "Login with Google" button to authenticate and view your profile information.
+
+Link to App on Google:
+https://console.cloud.google.com/apis/credentials?inv=1&invt=Abw0xg&project=healthy-rarity-459207-j0&supportedpurview=project
