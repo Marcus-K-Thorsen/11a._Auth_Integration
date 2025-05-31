@@ -18,7 +18,7 @@ load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 app = FastAPI()
 
 
-# Serve static files from 'public' folder
+# Serve static files from 'templates' folder
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
