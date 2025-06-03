@@ -93,7 +93,7 @@ async def google_callback(request: Request):
         return HTMLResponse(content="Error during authentication", status_code=500)
 
 
-# Route to fetch user info
+# IMPORTANT: Route to fetch user info
 @app.get("/auth/whoami")
 async def whoami(tokens: str):
     try:
